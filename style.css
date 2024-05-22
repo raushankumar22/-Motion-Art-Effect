@@ -1,0 +1,15 @@
+.path {
+    stroke-dasharray: var(--length);
+    stroke-dashoffset: var(--length);
+    stroke-width: 2;
+    animation: anim 3s ease-in-out alternate infinite;
+  }
+  
+  @keyframes anim {
+    0% {
+      stroke-dashoffset: var(--length);
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
